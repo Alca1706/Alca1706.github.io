@@ -77,7 +77,7 @@ document.addEventListener("click", (e) => {
 ```
 *(EL id de la espada es cazador)*
 
-#4.  Intercambio de imagen:
+# 4.  Intercambio de imagen:
 *Esta acción es una referencia al juego, ya que la imagen del cazador (amigo) que se movía de lado a lado se cambia por la imagen de una bestia. Esto referencia al hecho de que los cazadores se transforman en bestias a causa de la sangre (que tiene propiedades curativas)*
 *Para realizar este cambio precisé del siguiente código en JS:*
 ```
