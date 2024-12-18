@@ -2,20 +2,16 @@
 -html{
 font-size:20px;
 }
- #cazador {
+  #cazador {
              margin: 0;
             height: 100vh;
-            position: relative;
             background-color: #f0f0f0;
             overflow: hidden;
             cursor: pointer;
-        }
-
-        #cazador {
             position: absolute;
-            width: 180px; /* Ancho de la imagen */
-            height: auto; /* Mantener proporción */
-            pointer-events: none; /* Para que no interfiera con los clics */
+            width: 180px; 
+            height: auto; 
+            pointer-events: none; 
         }
 h1{
   font-size: 50px;
