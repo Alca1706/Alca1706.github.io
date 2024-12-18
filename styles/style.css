@@ -2,15 +2,20 @@
 -html{
 font-size:20px;
 }
-  #cazador {
+   #cazador {
              margin: 0;
-            height: 100vh;
+            height: auto;
             background-color: #f0f0f0;
             overflow: hidden;
             cursor: pointer;
             position: absolute;
-            width: 180px; 
-            pointer-events: none; 
+            width: auto; 
+            pointer-events: none;
+            z-index:99999;
+            top: 40%;
+            left: 20%;
+            transform: translate(-50%, -50%);
+            animation: girar 3s linear infinite;
         }
 h1{
   font-size: 50px;
@@ -56,33 +61,7 @@ img{
   display: block;
   margin: 0 auto;
 }
- #cazador {
-             margin: 0;
-            height: 100vh;
-            position: relative;
-            background-color: #f0f0f0;
-            overflow: hidden;
-            cursor: pointer;
-        }
-
-              #cazador {
-                z-index:99999;
-            position: absolute;
-            width: auto;
-            height: auto;
-            pointer-events: none;
-        }
-
-#cazador {
-            position: ;
-            z-index: 9999;
-            top: 40%;
-            left: 20%;
-            transform: translate(-50%, -50%);
-            animation: girar 3s linear infinite;
-        }
-
-       
+     
         @keyframes girar {
             from {
                 transform: translate(-50%, -50%) rotate(0deg);
