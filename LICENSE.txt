@@ -1,0 +1,11 @@
+IMÁGENES:
+marca.webp: CC-BY-4.0
+espada.jpg: CC-BY-4.0
+bestia.png: CC-BY-4.0
+amigo.png: CC-BY-4.0
+
+Fuente de texto: 
+Lora: SIL Open Font License 1.1 
+
+WEB: License: MIT
+
